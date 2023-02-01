@@ -1,0 +1,38 @@
+.form-input {
+  @apply bg-[#424242] px-4 py-6 outline-none border-none bg-opacity-30 text-gray-400 w-full md:w-[60%] my-4;
+  clip-path: polygon(0 0, 96% 0, 100% 24%, 100% 100%, 0 100%, 0% 50%);
+  transition: all 0.4s;
+  border-bottom: 3px solid transparent;
+}
+
+.form-input:focus {
+  border-bottom: 3px solid #FDC236;
+}
+
+.form-textarea {
+  @apply bg-[#424242] px-4 py-6 outline-none border-none bg-opacity-30 text-gray-400 w-full md:w-[60%] my-4;
+  clip-path: polygon(0 0, 95% 0, 100% 8%, 100% 100%, 0 100%, 0% 50%);
+  resize: none;
+  transition: all 0.4s;
+  border-bottom: 3px solid transparent;
+}
+
+.form-textarea:focus {
+  border-bottom: 3px solid #FDC236;
+}
+
+.submit-btn {
+  @apply font-valo text-white p-4 block bg-gradient-to-br from-[#FDC236] to-[#795706] text-xl tracking-wider;
+  clip-path: polygon(0 0, 86% 0, 100% 19%, 100% 100%, 0 100%, 0% 50%);
+  transition: all 0.4s;
+}
+
+.submit-btn-container {
+  @apply border-2 my-8 mx-auto p-3 border-gray-700 border-opacity-50;
+  width: fit-content;
+  transition: all 0.4s;
+}
+
+.submit-btn-container:hover {
+  @apply border-yellow;
+}
