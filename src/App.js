@@ -81,7 +81,7 @@ const App = () => {
           <br />
           <b> 📞Further Contact:- </b>
           <br />
-          Kumar Amrendram - 962854106
+          Kumar Amrendram - 9625854106
           <br />
           Kamini Tiwari - 7007366270
           <br />
