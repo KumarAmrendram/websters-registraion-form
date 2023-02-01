@@ -32,15 +32,8 @@ const App = () => {
           <input type="text" className="form-input" name="entry.1556472114" placeholder="EMAIL" />
           <input type="text" className="form-input" name="entry.786855019" placeholder="PHONE" />
           <input type="text" className="form-input" name="entry.1925733965" placeholder="COURSE" />
+          <input type="text" className="form-input" name="entry.540724926" placeholder="YEAR" />
           <input type="text" className="form-input" name="entry.1499219191" placeholder="ROLL NO" />
-          <textarea
-          name="entry.540724926"
-            className="form-textarea"
-            placeholder="Your Suggestion..."
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
           <div className="flex justify-center submit-btn-container">
             <button className="submit-btn">
               SUBMIT
