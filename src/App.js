@@ -101,30 +101,35 @@ const App = () => {
             className="form-input"
             name="entry.210379106"
             placeholder="FULL NAME"
+            required
           />
           <input
             type="text"
             className="form-input"
             name="entry.1556472114"
             placeholder="EMAIL"
+            required
           />
           <input
             type="text"
             className="form-input"
             name="entry.786855019"
             placeholder="PHONE"
+            required
           />
           <input
             type="text"
             className="form-input"
             name="entry.1925733965"
             placeholder="COURSE"
+            required
           />
           <input
             type="text"
             className="form-input"
             name="entry.540724926"
             placeholder="YEAR"
+            required
           />
           <input
             type="text"
