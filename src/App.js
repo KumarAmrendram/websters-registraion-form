@@ -2,12 +2,12 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="bg-black relative">
+    <div className="bg-black relative ">
       <span className="absolute rounded-full h-[500px] w-[500px] bg-yellow bg-opacity-10 md:bg-opacity-70 blur-[300px] top-[-4rem] left-[-10rem]"></span>
       <span className="absolute rounded-full h-[200px] w-[200px] bg-yellow bg-opacity-50 md:bg-opacity-70 blur-[150px] top-[-4rem] right-[2rem]"></span>
       <span className="absolute rounded-full h-[900px] w-[600px] bg-yellow bg-opacity-20 md:bg-opacity-20 blur-[150px] bottom-[4rem] right-[0rem]"></span>
       <span className="absolute rounded-full hidden md:block h-[400px] w-[400px] bg-yellow bg-opacity-10 blur-[150px] bottom-[4rem] left-[0rem]"></span>
-      <div className="container mx-auto p-12">
+      <div className="container mx-auto p-12 lg:w-3/5">
         <h1 className="font-valo text-white tracking-wide text-2xl mb-5 md:text-7xl text-center">
           Registration
         </h1>
